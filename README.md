@@ -33,7 +33,7 @@ Two EC2 instances running Apache web servers, load balanced by an AWS Applicatio
 - Listener: HTTP 80 → alb-demo-tg
 
 ## ALB DNS URL
-http://alb-demo-971559380.us-east-1.elb.amazonaws.com
+http://alb-demo-1133985074.us-east-1.elb.amazonaws.com
 
 ## Reliability Test
 Stopped Server-1 → ALB detected unhealthy after ~60 seconds → All traffic routed to Server-2 automatically.
